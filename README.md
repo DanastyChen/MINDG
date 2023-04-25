@@ -1,6 +1,5 @@
 <h3 align="center">
 <p> ILNET:A Drug-Target Interaction Prediction Method Based on Integrated Learning Method </h3>
-------
 
 This repository contains script which were used to build and train the ILNET model together with the scripts for evaluating the model's performance.
 
