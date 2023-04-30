@@ -11,7 +11,7 @@ This repository contains script which were used to build and train the MINDG mod
 
 ```
 numpy                   1.19.1
-tqdm 					          4.64.1
+tqdm 					4.64.1
 torch                   1.5.0
 torch_sparse            0.6.4
 pandas                  1.3.5
@@ -19,25 +19,27 @@ scikit-learn            0.22.1
 matplotlib              3.2.2
 scipy                   1.5.0
 texttable               1.6.2
-requests				        2.28.2
-pandas-flavor			      0.5.0
-subword-nmt				      0.3.8
-scipy  					        1.7.3
-prettytable          	  3.6.0
-texttable 				      1.6.7
+requests				2.28.2
+pandas-flavor			0.5.0
+subword-nmt				0.3.8
+scipy  					1.7.3
+prettytable          	3.6.0
+texttable 				1.6.7
 ```
 
 #### Dataset
 
 > The dataset used in the experiments are provided as follows:
+>
+> **BindingDB** dataset is hosted in https://www.bindingdb.org/bind/index.jsp.
+>
+> **Davis** Dataset can be found in http://staff.cs.utu.fi/~aatapa/data/DrugTarget/.
+>
+> **KIBA** dataset can be found in https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0209-z.
 
-> - **BindingDB** dataset is hosted in https://www.bindingdb.org/bind/index.jsp.
+Here we provided DAVIS in `/data`
 
-> - **Davis** Dataset can be found in http://staff.cs.utu.fi/~aatapa/data/DrugTarget/.
-
-> - **KIBA** dataset can be found in https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0209-z.
-
-> Here we provided DAVIS in `/data`
+------
 
 #### HOAGCN options
 
@@ -66,4 +68,3 @@ cnn_target_kernels = [4,8,12]
 #### Acknowledgement
 
 The code is based on [HOGCN](https://github.com/kckishan/HOGCN-LP) and [DeepPurpose](https://github.com/kexinhuang12345/DeepPurpose).
-
