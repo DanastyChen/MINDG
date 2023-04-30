@@ -9,23 +9,22 @@ This repository contains script which were used to build and train the MINDG mod
 
 #### Dependency
 
-```python
-numpy
-pandas
-tqdm
-scikit-learn
-wget
-torch
-torch_sparse            
-matplotlib
-requests
-pandas-flavor
-subword-nmt
-scipy  
-lifelines
-prettytable
-tensorboard
-texttable 
+```
+numpy                   1.19.1
+tqdm 					4.64.1
+torch                   1.5.0
+torch_sparse            0.6.4
+pandas                  1.3.5
+scikit-learn            0.22.1
+matplotlib              3.2.2
+scipy                   1.5.0
+texttable               1.6.2
+requests				2.28.2
+pandas-flavor			0.5.0
+subword-nmt				0.3.8
+scipy  					1.7.3
+prettytable          	3.6.0
+texttable 				1.6.7
 ```
 
 #### Dataset
@@ -45,7 +44,7 @@ The dataset used in the experiments are provided in `/data`
   --cuda              BOOL    Run on GPR                     Default is True.
 ```
 
-#### MDN options
+#### HDN options
 
 ```python
 cls_hidden_dims = [1024,1024,512], 
