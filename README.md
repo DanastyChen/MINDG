@@ -29,15 +29,15 @@ texttable 				      1.6.7
 
 #### Dataset
 
-The dataset used in the experiments are provided as follows:
+> The dataset used in the experiments are provided as follows:
 
-The **BindingDB** dataset is hosted in https://www.bindingdb.org/bind/index.jsp.
+> - **BindingDB** dataset is hosted in https://www.bindingdb.org/bind/index.jsp.
 
-The **Davis** Dataset can be found in http://staff.cs.utu.fi/~aatapa/data/DrugTarget/.
+> - **Davis** Dataset can be found in http://staff.cs.utu.fi/~aatapa/data/DrugTarget/.
 
-The **KIBA** dataset can be found in https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0209-z.
+> - **KIBA** dataset can be found in https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0209-z.
 
-Here we provided DAVIS in `/data`
+> Here we provided DAVIS in `/data`
 
 #### HOAGCN options
 
