@@ -34,8 +34,6 @@ texttable               1.6.7
 > **BindingDB** dataset is hosted in https://www.bindingdb.org/bind/index.jsp.
 >
 > **Davis** Dataset can be found in http://staff.cs.utu.fi/~aatapa/data/DrugTarget/.
->
-> **KIBA** dataset can be found in https://jcheminf.biomedcentral.com/articles/10.1186/s13321-017-0209-z.
 
 Here we provided DAVIS in `/data`
 
